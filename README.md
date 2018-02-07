@@ -87,6 +87,9 @@ Generate Dockerfile, and print result to stdout. The result can be piped to `doc
 docker run --rm kaczmarj/neurodocker generate -b ubuntu:17.04 -p apt --ants version=2.2.0
 
 docker run --rm kaczmarj/neurodocker generate -b ubuntu:17.04 -p apt --ants version=2.2.0 | docker build -
+
+docker run --rm kaczmarj/neurodocker generate -b ubuntu:17.04 -p apt --afni version=latest | docker build -
+
 ```
 
 ## Generate Dockerfile (full)
