@@ -88,7 +88,7 @@ docker run --rm kaczmarj/neurodocker generate -b ubuntu:17.04 -p apt --ants vers
 
 docker run --rm kaczmarj/neurodocker generate -b ubuntu:17.04 -p apt --ants version=2.2.0 | docker build -
 
-docker run --rm kaczmarj/neurodocker generate -b ubuntu:17.04 -p apt --afni version=latest | docker build -
+docker run --rm kaczmarj/neurodocker generate -b ubuntu:16.04 -p apt --afni version=latest | docker build -
 
 ```
 
